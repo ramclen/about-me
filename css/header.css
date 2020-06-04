@@ -1,0 +1,63 @@
+.header {
+  background: #3F51B5;
+  height: 220px;
+  position: absolute;
+  width: 100vw;
+}
+
+@media(min-width: 960px){
+  .social {
+    margin: 20px 10px 10px;
+    text-align: right;
+  }
+
+  .social i{
+    margin-right: 11px;
+  }
+
+  .social div {
+    text-align: start;
+    margin-right: 12px;
+  }
+}
+
+.social {
+  margin: 3px 10px 10px;
+  color: white;
+  font-size: 26px;
+}
+
+.social a{
+  color: white;
+  text-decoration: none;
+}
+
+.social div {
+  display: inline;
+}
+
+.dev-to-icon {
+  margin-bottom: -1px;
+  border-radius: 10%;
+  background: white; 
+  height: 22px;
+  width: 18px;
+  fill: #1631bd;
+  padding: 0 2px;
+}
+
+.dev-to-icon:hover {
+  background: rgb(194,24,91);
+}
+
+
+@media(max-width: 960px) {
+  .header-content{
+    padding-top: 25px !important;
+    padding-left: 3px;
+  }
+}
+
+.header-content {
+  padding-top: 50px;
+}
